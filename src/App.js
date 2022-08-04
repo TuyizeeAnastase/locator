@@ -1,13 +1,24 @@
+import NavBar from './inc/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact'
+
 import './App.css';
-import Navigation from './components/navigation';
-import Search  from './components/search';
 
 function App() {
   return (
-    <div className='content p-4' id='content'>
-      <Navigation/>
-      <Search/>
+    <Router>
+    <div id='content'>
+      <NavBar />
+      <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/about" element={<About />}/>
+      <Route path="/contact" element={<Contact />}/>
+      </Routes>
     </div>
+    </Router>
   );
 }
 

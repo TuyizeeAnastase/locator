@@ -36,18 +36,37 @@
     transform: rotate(360deg);
   }
 }
-.content {
-  background-image: url("./images/pexels-andrea-piacquadio-2672979.jpg");
-  padding: 50px 0 50px 0;
-  height: 800px;
-  width: 100%;
-  background-size: cover;
+#nav-item{
+  color: white !important;
+  font-size: x-large;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 28px;
+  padding-bottom: 29px;
 }
-
-#content{
-  background-image: linear-gradient(to bottom, rgba(36, 38, 43, 0.52), rgba(56, 48, 54, 0.73)),url("./images/pexels-andrea-piacquadio-2672979.jpg");
-  padding: 50px 0 50px 0;
-  height: 800px;
-  width: 100%;
-  background-size: cover;
+#nav-item:hover{
+  color: #282c34 !important;
+}
+#nav-logo{
+  color: white !important;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-weight: 300;
+  padding-left: 4px;
+}
+#caption{
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 28px;
+  padding-bottom: 29px;
+}
+#caption h1,p{
+  color: black !important;
+  font-weight: 600;
+  font: bolder;
 }
