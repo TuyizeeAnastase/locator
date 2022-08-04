@@ -70,3 +70,21 @@
   font-weight: 600;
   font: bolder;
 }
+.section{
+  padding-top: 40px;
+  padding-bottom:40px
+}
+.main-heading{
+  color:black;
+  font-size:26px
+}
+.underline{
+  height: 04px;
+  width: 14rem;
+  background-color: #DF4857;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-cat{
+  width: 18px;
+}
