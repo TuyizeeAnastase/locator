@@ -11,6 +11,8 @@ import hospital from "../images/hospital.png";
 import hotel from "../images/hotel.png";
 import beauty from "../images/beauty.png"
 
+import Footer from "./Footer";
+
 const Home = () => {
   return (
     <div>
@@ -119,6 +121,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };
